@@ -12,10 +12,13 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "chatParticipants": [
       {
-        "command": "code-tutor.helloWorld",
-        "title": "Hello World"
+        "id": "chat-tutorial.code-tutor",
+        "fullName": "Code Tutor",
+        "name": "tutor",
+        "description": "What can I teach you?",
+        "isSticky": true
       }
     ]
   },
